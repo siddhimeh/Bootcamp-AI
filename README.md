@@ -53,13 +53,55 @@ Topics covered:
 - Basic data cleaning
 - Working with structured datasets
 
-## Technologies Used
+### 05 - Student Performance Prediction
+File: `machinelearning.ipynb`
 
+This notebook demonstrates a basic Machine Learning classification project using a Decision Tree Classifier.
+
+Topics covered:
+- Loading the Student Performance dataset using Pandas
+- Cleaning column names
+- Creating a Pass/Fail target variable using final grade (G3)
+- Student performance visualization using Matplotlib
+- Selecting features and target variables
+- Splitting data into training and testing sets
+- Training a Decision Tree Classifier
+- Making predictions on test data
+- Calculating model accuracy
+- Visualizing the trained Decision Tree
+
+Technologies/Libraries:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+
+### 06 - Email Spam Classification
+File: `email.ipynb`
+
+This notebook demonstrates a simple Machine Learning model for classifying emails as Spam or Normal (Ham).
+
+Topics covered:
+- Creating a sample email dataset
+- Assigning Spam and Normal labels
+- Converting text data into numerical features
+- Feature extraction using CountVectorizer
+- Training a Multinomial Naive Bayes classifier
+- Testing the model on unseen email subjects
+- Predicting whether an email is Spam or Normal
+
+Technologies/Libraries:
 - Python
 - Jupyter Notebook
 - NumPy
 - Pandas
 - Matplotlib
+- Pandas
+- Scikit-learn
+- CountVectorizer
+- Multinomial Naive Bayes
 
 ## Purpose
 I will continue updating this repository as I learn new concepts and complete more exercises.
